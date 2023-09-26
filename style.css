@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --yellow: #ffd900;
+  --text: #00000080;
+  --dark: #0f0f0f;
+}
+
+@font-face {
+  font-family: "Sansation";
+  src: url("./assets/fonts/Sansation_Regular.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+* {
+  font-family: "Sansation", sans-serif;
+}
+
+@layer components {
+  h1 {
+    @apply text-black font-bold;
+  }
+  h2 {
+    @apply text-black lg:text-3xl font-bold;
+  }
+  h3 {
+    @apply text-black lg:text-2xl font-bold;
+  }
+  h4 {
+    @apply text-black lg:text-xl font-bold;
+  }
+  h5 {
+    @apply lg:text-black font-bold;
+  }
+
+  .container-box {
+    @apply w-[90%] md:w-4/5 m-auto;
+  }
+
+  a {
+    @apply text-[var(--yellow)] underline;
+  }
+
+  main {
+    @apply container-box py-12 px-[10%] bg-white;
+  }
+}
