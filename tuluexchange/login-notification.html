@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
     <title>Login Notification</title>
     <style>
       :root {
@@ -14,7 +13,7 @@
 
       @font-face {
         font-family: "Sansation";
-        src: url("./assets/fonts/Sansation_Regular.ttf") format("truetype");
+        src: url("../assets/fonts/Sansation_Regular.ttf") format("truetype");
         font-weight: bold;
         font-style: normal;
       }
@@ -182,13 +181,13 @@
   <body>
     <main>
       <div class="flex justify-center">
-        <image src="/assets/images/tulupay-logo.png" />
+        <image src="./assets/images/tulupay-logo.png" />
       </div>
       <div className="h-8"></div>
       <div className="w-full">
-        <image src="/assets/images/login.svg" class="w-full" />
+        <image src="./assets/images/login.svg" class="w-full" />
       </div>
-      <br>
+      <br />
       <div className="h-8"></div>
       <h3>Login Notification</h3>
       <br />
@@ -214,31 +213,42 @@
     <footer>
       <div class="container-box">
         <div class="flex justify-center gap-4">
-          <div
-            class="flex items-center justify-center icon-social text-black rounded-full"
-          >
-            <image src="/assets/icons/twitter.svg" />
-          </div>
-          <div
-            class="flex items-center justify-center icon-social text-black rounded-full"
-          >
-            <image src="/assets/icons/instagram.svg" />
-          </div>
-          <div
-            class="flex items-center justify-center icon-social text-black rounded-full"
-          >
-            <image src="/assets/icons/linkedin.svg" />
-          </div>
-          <div
-            class="flex items-center justify-center icon-social text-black rounded-full"
-          >
-            <image src="/assets/icons/discord.svg" />
-          </div>
-          <div
-            class="flex items-center justify-center icon-social text-black rounded-full"
-          >
-            <image src="/assets/icons/facebook.svg" />
-          </div>
+          <a href="https://x.com">
+            <div
+              class="flex items-center justify-center icon-social text-black rounded-full"
+            >
+              <image src="./assets/icons/twitter.svg" />
+            </div>
+          </a>
+          <a href="https://instagram.com">
+            <div
+              class="flex items-center justify-center icon-social text-black rounded-full"
+            >
+              <image src="./assets/icons/instagram.svg" />
+            </div>
+          </a>
+          <a href="https://linkedin.com">
+            <div
+              class="flex items-center justify-center icon-social text-black rounded-full"
+            >
+              <image src="./assets/icons/linkedin.svg" />
+            </div>
+          </a>
+          <a href="https://discord.com">
+            <div
+              class="flex items-center justify-center icon-social text-black rounded-full"
+            >
+              <image src="./assets/icons/discord.svg" />
+            </div>
+          </a>
+
+          <a href="https://facebook.com">
+            <div
+              class="flex items-center justify-center icon-social text-black rounded-full"
+            >
+              <image src="./assets/icons/facebook.svg" />
+            </div>
+          </a>
         </div>
         <br />
         <p class="text-white text-center">
